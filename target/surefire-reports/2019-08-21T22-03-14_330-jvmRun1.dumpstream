@@ -1,0 +1,17 @@
+# Created at 2019-08-21T22:03:27.562
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2019-08-21T22:03:36.923
+Unexpected IOException: 8,1,TestProject,setUp(TestProject),null,expected [Facebook \2013 log in or sign up] but found [Facebook],null,expected [Facebook \2013 log in or sign up] but found [Facebook],TestProject.setUp:15 expected [Facebook \2013 log in or sign up] but found [Facebook],java.lang.AssertionError: expected [Facebook \2013 log in or sign up] but found [Facebook]\000A\0009at TestProject.setUp(TestProject.java:15)\000A
+
+
+# Created at 2019-08-21T22:03:37.997
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
